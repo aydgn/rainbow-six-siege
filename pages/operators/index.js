@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Header from "../../components/Header";
 import Op from "../../components/Op";
+import Layout from "../../components/Layout";
 
 function index() {
 	const attackers = [
@@ -67,11 +67,10 @@ function index() {
 	];
 
 	return (
-		<div>
+		<Layout>
 			<Head>
 				<title>Operators</title>
 			</Head>
-			<Header />
 			<div className="p-2 lg:p-10 lg:max-w-screen-xl mx-auto">
 				<h2 className="text-xl font-bold my-5 border-b">
 					Atackers ({attackers.length})
@@ -90,7 +89,7 @@ function index() {
 					})}
 				</div>
 			</div>
-		</div>
+		</Layout>
 	);
 }
 
