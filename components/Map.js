@@ -4,7 +4,7 @@ export default function Map(props) {
 		<div>
 			<div>{props.mapname}</div>
 			<Image
-				src={`/images/maps/${props.mapname}.webp`}
+				src={`/images/maps/${props.mapname.toLowerCase()}.webp`}
 				height={216}
 				width={384}
 				alt={props.mapname}
