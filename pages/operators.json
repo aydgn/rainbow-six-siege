@@ -1,11 +1,11 @@
-[
-	"Attackers" [
+{
+	"Attackers": [
 		"Sledge",
-		"Twatcher",
+		"Thatcher",
 		"Ash",
 		"Thermite",
 		"Twitch",
-		"Montange",
+		"Montagne",
 		"Glaz",
 		"Fuze",
 		"Blitz",
@@ -30,7 +30,7 @@
 		"Ace",
 		"Zero"
 	],
-	"Defenders" [
+	"Defenders": [
 		"Smoke",
 		"Mute",
 		"Castle",
@@ -61,4 +61,4 @@
 		"Melusi",
 		"Aruni"
 	]
-]
+}
