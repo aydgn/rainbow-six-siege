@@ -9,7 +9,7 @@ function index() {
 			<Head>
 				<title>Maps</title>
 			</Head>
-			<div className="p-2 lg:p-10 lg:max-w-screen-xl mx-auto">
+			<div className="p-3 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
 				{Maps.map((x) => (
 					<Map mapname={x.Name} key={x.Name} />
 				))}
