@@ -9,7 +9,7 @@ function index() {
 			<Head>
 				<title>Operators</title>
 			</Head>
-			<div className="p-2 lg:p-10 lg:max-w-screen-xl mx-auto">
+			<div className="container mx-auto">
 				<h2 className="text-xl font-bold my-5 border-b">
 					Atackers ({operators.Attackers.length})
 				</h2>

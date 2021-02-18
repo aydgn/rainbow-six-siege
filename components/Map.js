@@ -9,7 +9,9 @@ export default function Map(props) {
 						{props.mapname}
 					</span>
 					<Image
-						src={`/images/maps/${props.mapname.toLowerCase()}.webp`}
+						src={`/images/maps/${props.mapname
+							.replace(/ +/g, "")
+							.toLowerCase()}.webp`}
 						width={384}
 						height={214}
 						alt={props.mapname}
