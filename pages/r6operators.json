@@ -1,22 +1,4 @@
 {
-	"Zero": {
-		"company": "ROS",
-		"side": "Attack",
-		"role": "Intel Denier, Intel Gatherer\n",
-		"realName": "Samuel Leo Fisher",
-		"country": "USA",
-		"armor": 2,
-		"speed": 2,
-		"difficulty": null,
-		"primaryWeapon1": "SC3000K",
-		"primaryWeapon2": "MP7",
-		"primaryWeapon3": "",
-		"secondaryWeapon1": "5.7 USG",
-		"secondaryWeapon2": "",
-		"gadget1": "HARD BREACH CHARGE",
-		"gadget2": "CLAYMORE",
-		"uniqueAbility": "Argus Launcher"
-	},
 	"Flores": {
 		"company": "",
 		"side": "Attack",
@@ -34,6 +16,24 @@
 		"gadget1": "STUN GRENADE",
 		"gadget2": "CLAYMORE",
 		"uniqueAbility": "RCE-RATERO CHARGE"
+	},
+	"Zero": {
+		"company": "ROS",
+		"side": "Attack",
+		"role": "Intel Denier, Intel Gatherer\n",
+		"realName": "Samuel Leo Fisher",
+		"country": "USA",
+		"armor": 2,
+		"speed": 2,
+		"difficulty": null,
+		"primaryWeapon1": "SC3000K",
+		"primaryWeapon2": "MP7",
+		"primaryWeapon3": "",
+		"secondaryWeapon1": "5.7 USG",
+		"secondaryWeapon2": "",
+		"gadget1": "HARD BREACH CHARGE",
+		"gadget2": "CLAYMORE",
+		"uniqueAbility": "Argus Launcher"
 	},
 	"Ace": {
 		"company": "NIGHTHAVEN",

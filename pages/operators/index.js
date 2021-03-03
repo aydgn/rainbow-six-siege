@@ -1,9 +1,16 @@
 import Head from "next/head";
 import Layout from "../../components/Layout";
 import Op from "../../components/Op";
-import operators from "../operators.json";
 
-function index() {
+export const getStaticProps = async () => {
+	const res = (await import("../operators.json")).default;
+
+	return {
+		props: { operators: res },
+	};
+};
+
+function index({ operators }) {
 	return (
 		<Layout>
 			<Head>
@@ -30,5 +37,4 @@ function index() {
 		</Layout>
 	);
 }
-
 export default index;
