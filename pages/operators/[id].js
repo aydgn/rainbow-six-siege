@@ -1,6 +1,6 @@
 import Layout from "../../components/layout";
-import { useRouter } from "next/router";
 import Head from "next/head";
+import { useRouter } from "next/router";
 
 export default function Post(props) {
 	// Router
@@ -17,8 +17,8 @@ export default function Post(props) {
 	);
 }
 
+// OTHERS
 export async function getStaticPaths() {
-	// Return a list of possible value for id
 	const paths = [
 		{ params: { id: "Sledge" } },
 		{ params: { id: "Thatcher" } },
@@ -32,7 +32,7 @@ export async function getStaticPaths() {
 		{ params: { id: "Iq" } },
 		{ params: { id: "Buck" } },
 		{ params: { id: "Blackbeard" } },
-		{ params: { id: "Capitao" } },
+		{ params: { id: "Capitão" } },
 		{ params: { id: "Hibana" } },
 		{ params: { id: "Jackal" } },
 		{ params: { id: "Ying" } },
@@ -57,7 +57,7 @@ export async function getStaticPaths() {
 		{ params: { id: "Rook" } },
 		{ params: { id: "Kapkan" } },
 		{ params: { id: "Tachanka" } },
-		{ params: { id: "Jager" } },
+		{ params: { id: "Jäger" } },
 		{ params: { id: "Bandit" } },
 		{ params: { id: "Frost" } },
 		{ params: { id: "Valkyrie" } },

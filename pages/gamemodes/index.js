@@ -1,11 +1,15 @@
-import operators from "../r6operators.json";
+import Head from "next/head";
+import Header from "../../components/Header";
 
-const OpDetail = (props) => {
+function index() {
 	return (
 		<div>
-			<h1>{operators["${props}"].realName}</h1>
+			<Head>
+				<title>Game Modes</title>
+			</Head>
+			<Header />
 		</div>
 	);
-};
+}
 
-export default OpDetail;
+export default index;
