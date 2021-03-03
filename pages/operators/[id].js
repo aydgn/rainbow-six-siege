@@ -9,10 +9,11 @@ export default function Post(props) {
 	return (
 		<Layout>
 			<Head>
-				<title>{id}</title>
+				<title>{id.toUpperCase()}</title>
 			</Head>
-			<h1 className="text-6xl">{id}</h1>
-			Real Name: {props.id[`${id}`].realName}
+			<h1 className="text-6xl capitalize">{id}</h1>
+			Real Name:{" "}
+			<span className="capitalize">{props.id[`${id}`].realname}</span>
 		</Layout>
 	);
 }

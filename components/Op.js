@@ -5,9 +5,9 @@ const Op = (props) => {
 		<Link href={`/operators/${props.name}`}>
 			<a>
 				<div className="border rounded flex flex-col font-medium bg-gray-100 hover:shadow hover:bg-gray-200 ">
-					<span className="flex justify-center">{props.name}</span>
+					<span className="flex justify-center capitalize">{props.name}</span>
 					<Image
-						src={`/images/opicons/${props.name.toLowerCase()}.svg`}
+						src={`/images/opicons/${props.name}.svg`}
 						alt={props.name}
 						title={props.name}
 						height={64}
