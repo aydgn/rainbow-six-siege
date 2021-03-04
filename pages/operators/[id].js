@@ -1,6 +1,7 @@
 import Layout from "../../components/Layout";
 import Head from "next/head";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 export default function Post(props) {
 	// Router
@@ -11,9 +12,27 @@ export default function Post(props) {
 			<Head>
 				<title>{id.toUpperCase()}</title>
 			</Head>
-			<h1 className="text-6xl capitalize">{id}</h1>
-			Real Name:{" "}
-			<span className="capitalize">{props.id[`${id}`].realname}</span>
+
+			<section className="flex justify-between items-center w-full md:justify-evenly ">
+				<div className="left flex">
+					<Image
+						src={`/images/opicons/${id}.svg`}
+						alt={id}
+						title={id}
+						height={96}
+						width={96}
+					/>
+				</div>
+				<div className="right flex float-right flex-col px-5 border-l-8">
+					<h1 className="text-6xl capitalize">{id}</h1>
+					<div className="text-center">
+						Real Name:
+						<span className="capitalize bg-black hover:bg-transparent rounded transition-all delay-75 ease-in-out	 p-1">
+							{props.id[`${id}`].realname}
+						</span>
+					</div>
+				</div>
+			</section>
 		</Layout>
 	);
 }
