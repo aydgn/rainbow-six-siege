@@ -13,8 +13,17 @@ export default function Post(props) {
 				<title>{id.toUpperCase()}</title>
 			</Head>
 
-			<section className="flex justify-between items-center w-full md:justify-evenly ">
-				<div className="left flex">
+			<section className="flex justify-between items-center w-full md:justify-evenly bg-gray-50 p-5">
+				<div className="left flex flex-col px-5 border-l-8">
+					<h1 className="opName text-6xl capitalize pb-3 font-bold">{id}</h1>
+					<div className="font-thin">
+						Real Name:
+						<span className="capitalize bg-black hover:bg-transparent rounded transition-all delay-75 ease-in-out	p-1">
+							{props.id[`${id}`].realname}
+						</span>
+					</div>
+				</div>
+				<div className="right ">
 					<Image
 						src={`/images/opicons/${id}.svg`}
 						alt={id}
@@ -22,15 +31,6 @@ export default function Post(props) {
 						height={96}
 						width={96}
 					/>
-				</div>
-				<div className="right flex float-right flex-col px-5 border-l-8">
-					<h1 className="text-6xl capitalize">{id}</h1>
-					<div className="text-center">
-						Real Name:
-						<span className="capitalize bg-black hover:bg-transparent rounded transition-all delay-75 ease-in-out	 p-1">
-							{props.id[`${id}`].realname}
-						</span>
-					</div>
 				</div>
 			</section>
 		</Layout>
