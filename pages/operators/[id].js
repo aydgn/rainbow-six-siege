@@ -15,7 +15,9 @@ export default function Post(props) {
 
 			<section className="flex justify-between items-center w-full md:justify-evenly bg-gray-50 p-5">
 				<div className="left flex flex-col px-5 border-l-8">
-					<h1 className="opName text-6xl capitalize pb-3 font-bold">{id}</h1>
+					<h1 className="opName text-2xl md:text-4xl xl:text-6xl capitalize pb-3 font-bold">
+						{id}
+					</h1>
 					<div className="font-thin">
 						Real Name:
 						<span className="capitalize bg-black hover:bg-transparent rounded transition-all delay-75 ease-in-out	p-1">
@@ -23,7 +25,7 @@ export default function Post(props) {
 						</span>
 					</div>
 				</div>
-				<div className="right ">
+				<div className="right">
 					<Image
 						src={`/images/opicons/${id}.svg`}
 						alt={id}
@@ -100,7 +102,6 @@ export async function getStaticPaths() {
 		{ params: { id: "aruni" } },
 		{ params: { id: "flores" } },
 	];
-	console.log(paths);
 	return {
 		paths,
 		fallback: false,
