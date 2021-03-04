@@ -13,19 +13,21 @@ export default function Post(props) {
 				<title>{id.toUpperCase()}</title>
 			</Head>
 
-			<section className="flex justify-between items-center w-full md:justify-evenly bg-gray-50 p-5">
-				<div className="left flex flex-col px-5 border-l-8">
-					<h1 className="opName text-2xl md:text-4xl xl:text-6xl capitalize pb-3 font-bold">
+			{/* First section */}
+			<section className="flex w-full bg-gray-50 p-5 -mt-8 justify-between sm:justify-evenly ">
+				<div className="leftCol flex flex-col sm:flex-row sm:space-x-8 justify-between px-5 sm:place-items-center">
+					<span className="opName text-2xl sm:text-4xl xl:text-6xl capitalize pb-3 font-bold">
 						{id}
-					</h1>
-					<div className="font-thin">
-						Real Name:
-						<span className="capitalize bg-black hover:bg-transparent rounded transition-all delay-75 ease-in-out	p-1">
-							{props.id[`${id}`].realname}
-						</span>
-					</div>
+					</span>
+					<span className="opRealName capitalize font-thin">
+						({props.id[`${id}`].realname})
+					</span>
+					<span className="company ">
+						{props.id[`${id}`].company.toUpperCase()}
+					</span>
 				</div>
-				<div className="right">
+				{/* Right Col */}
+				<div className="right flex">
 					<Image
 						src={`/images/opicons/${id}.svg`}
 						alt={id}
@@ -33,6 +35,39 @@ export default function Post(props) {
 						height={96}
 						width={96}
 					/>
+				</div>
+			</section>
+			{/* Second section */}
+			<section className="flex w-full bg-gray-50 px-5 pb-5">
+				<div className="opStats flex flex-grow font-thin text-center justify-evenly sm:justify-center">
+					<span className="border rounded px-3 ">
+						Armor: {props.id[`${id}`].armor}
+					</span>
+					<span className="border rounded px-3 ">
+						Speed: {props.id[`${id}`].speed}
+					</span>
+					<span
+						className={
+							props.id[`${id}`].difficulty ? "border rounded px-3" : "hidden"
+						}
+					>
+						Difficulty: {props.id[`${id}`].difficulty}
+					</span>
+				</div>
+			</section>
+			{/* OP details Grid */}
+			<section className="grid grid-cols-3 border-t-4 py-5 grid-flow-col justify-items-stretch sm:px-16">
+				<div className="side text-center jusitfy border rounded flex flex-col ">
+					<span class="sideTitle font-bold">Side</span>
+					<span class="side capitalize">{props.id[`${id}`].side}</span>
+				</div>
+				<div className="country text-center border rounded flex flex-col">
+					<span class="detailTitle font-bold ">Country</span>
+					<span class="country uppercase">{props.id[`${id}`].country}</span>
+				</div>
+				<div className="role text-center jusitfy border rounded flex flex-col">
+					<span class="roleTitle font-bold ">Role</span>
+					<span class="role capitalize">{props.id[`${id}`].role}</span>
 				</div>
 			</section>
 		</Layout>
