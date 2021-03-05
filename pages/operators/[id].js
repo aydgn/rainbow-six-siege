@@ -11,6 +11,9 @@ export default function Post(props) {
 	const { id } = router.query;
 	return (
 		<Layout>
+			{/* 			{console.log(guns[props.id[`${id}`].primaryweapon2.toUpperCase()].url)}
+			 */}
+			{console.log(props.id[`${id}`].primaryweapon2)}
 			<Head>
 				<title>{id.toUpperCase()}</title>
 			</Head>
@@ -92,7 +95,7 @@ export default function Post(props) {
 					<div className="primary2">{props.id[`${id}`].primaryweapon2}</div>
 					<Image
 						src={`/images/gunicons/${
-							guns[props.id[`${id}`].primaryweapon2.toUpperCase()].url
+							guns[props.id[`${id}`].primaryweapon2].url
 						}`}
 						height={100}
 						width={280}
