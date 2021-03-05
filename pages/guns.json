@@ -1,0 +1,518 @@
+{
+	"417": {
+		"url": "417.png"
+	},
+	".44 MAG SEMI-AUTO": {
+		"url": "44 mag semı-auto.png"
+	},
+	"1911 TACOPS": {
+		"url": "1911 tacops.png"
+	},
+	"416-C CARBINE": {
+		"url": "416-c carbıne.png"
+	},
+	"5.7 USG": {
+		"url": "5.7 usg.png"
+	},
+	"552 COMMANDO": {
+		"url": "552 commando.png"
+	},
+	"556XI": {
+		"url": "556xı.png"
+	},
+	"6P41": {
+		"url": "6p41.png"
+	},
+	"9MM C1": {
+		"url": "9mm c1.png"
+	},
+	"9X19VSN": {
+		"url": "9x19vsn.png"
+	},
+	"ACS12": {
+		"url": "acs12.png"
+	},
+	"ACTIVE DEFENSE SYSTEM": {
+		"url": "actıve defense system.png"
+	},
+	"ADRENAL SURGE": {
+		"url": "adrenal surge.png"
+	},
+	"AIRJAB LAUNCHER": {
+		"url": "aırjab launcher.png"
+	},
+	"AK-12": {
+		"url": "ak-12.png"
+	},
+	"AK-74M": {
+		"url": "ak-74m.png"
+	},
+	"ALDA 5.56": {
+		"url": "alda 5.56.png"
+	},
+	"AR-15.50": {
+		"url": "ar-15.50.png"
+	},
+	"AR33": {
+		"url": "ar33.png"
+	},
+	"Argus Launcher": {
+		"url": "argus launcher.png"
+	},
+	"ARMOR PACK": {
+		"url": "armor pack.png"
+	},
+	"ARMOR PANEL": {
+		"url": "armor panel.png"
+	},
+	"ARX200": {
+		"url": "arx200.png"
+	},
+	"AUG A2": {
+		"url": "aug a2.png"
+	},
+	"AUG A3": {
+		"url": "aug a3.png"
+	},
+	"BAILIFF 410": {
+		"url": "baılıff 410.png"
+	},
+	"BALLISTIC SHIELD": {
+		"url": "ballıstıc shıeld.png"
+	},
+	"BANSHEE SONIC DEFENSE": {
+		"url": "banshee sonıc defense.png"
+	},
+	"BARBED WIRE": {
+		"url": "barbed wıre.png"
+	},
+	"BLACK EYE": {
+		"url": "black eye.png"
+	},
+	"BLACK MIRROR": {
+		"url": "black mırror.png"
+	},
+	"BOSG.12.2": {
+		"url": "bosg.12.2.png"
+	},
+	"BREACH CHARGE": {
+		"url": "breach charge.png"
+	},
+	"BREACHING ROUNDS": {
+		"url": "breachıng rounds.png"
+	},
+	"BREACHING TORCH": {
+		"url": "breachıng torch.png"
+	},
+	"BULLETPROOF CAMERA": {
+		"url": "bulletproof camera.png"
+	},
+	"C75 AUTO": {
+		"url": "c75 auto.png"
+	},
+	"C7E": {
+		"url": "c7e.png"
+	},
+	"C8-SFW": {
+		"url": "c8-sfw.png"
+	},
+	"CAMRS": {
+		"url": "camrs.png"
+	},
+	"CANDELA": {
+		"url": "candela.png"
+	},
+	"CCE SHIELD": {
+		"url": "cce shıeld.png"
+	},
+	"CLAYMORE": {
+		"url": "claymore.png"
+	},
+	"CLUSTER CHARGE": {
+		"url": "cluster charge.png"
+	},
+	"COMMANDO 9": {
+		"url": "commando 9.png"
+	},
+	"CSRX 300": {
+		"url": "csrx 300.png"
+	},
+	"D-40": {
+		"url": "d-40.png"
+	},
+	"D-50": {
+		"url": "d-50.png"
+	},
+	"DEPLOYABLE SHIELD": {
+		"url": "deployable shıeld.png"
+	},
+	"DP27": {
+		"url": "dp27.png"
+	},
+	"EE-ONE-D": {
+		"url": "ee-one-d.png"
+	},
+	"ELECTRONICS DETECTOR": {
+		"url": "electronıcs detector.png"
+	},
+	"EMP GRENADE": {
+		"url": "emp grenade.png"
+	},
+	"ENTRY DENIAL DEVICE": {
+		"url": "entry denıal devıce.png"
+	},
+	"ERC-7": {
+		"url": "erc-7.png"
+	},
+	"EVIL EYE": {
+		"url": "evıl eye.png"
+	},
+	"EXOTHERMIC CHARGE": {
+		"url": "exothermıc charge.png"
+	},
+	"EYENOX MODEL III": {
+		"url": "eyenox model ııı.png"
+	},
+	"F2": {
+		"url": "f2.png"
+	},
+	"F90": {
+		"url": "f90.png"
+	},
+	"FLASH SHIELD": {
+		"url": "flash shıeld.png"
+	},
+	"FLIP SIGHT": {
+		"url": "flıp sıght.png"
+	},
+	"FMG-9": {
+		"url": "fmg-9.png"
+	},
+	"FO-12": {
+		"url": "fo-12.png"
+	},
+	"FRAG GRENADE": {
+		"url": "frag grenade.png"
+	},
+	"G36C": {
+		"url": "g36c.png"
+	},
+	"G52-TACTICAL SHIELD": {
+		"url": "g52-tactıcal shıeld.png"
+	},
+	"G8A1": {
+		"url": "g8a1.png"
+	},
+	"GARRA HOOK": {
+		"url": "garra hook.png"
+	},
+	"GEMINI REPLICATOR": {
+		"url": "gemını replıcator.png"
+	},
+	"GLANCE SMART GLASSES": {
+		"url": "glance smart glasses.png"
+	},
+	"GRZMOT MINE": {
+		"url": "grzmot mıne.png"
+	},
+	"GSH-18": {
+		"url": "gsh-18.png"
+	},
+	"GU MINES": {
+		"url": "gu mınes.png"
+	},
+	"HARD BREACH CHARGE": {
+		"url": "hard breach charge.png"
+	},
+	"HEARTBEAT SENSOR": {
+		"url": "heartbeat sensor.png"
+	},
+	"HEL PRESENCE REDUCTION": {
+		"url": "hel presence reductıon.png"
+	},
+	"IMPACT GRENADE": {
+		"url": "ımpact grenade.png"
+	},
+	"ITA12L": {
+		"url": "ıta12l.png"
+	},
+	"ITA12S": {
+		"url": "ıta12s.png"
+	},
+	"K1A": {
+		"url": "k1a.png"
+	},
+	"KERATOS .357": {
+		"url": "keratos .357.png"
+	},
+	"KS79 LIFELINE": {
+		"url": "ks79 lıfelıne.png"
+	},
+	"L85A2": {
+		"url": "l85a2.png"
+	},
+	"LE ROC SHIELD": {
+		"url": "le roc shıeld.png"
+	},
+	"LMG-E": {
+		"url": "lmg-e.png"
+	},
+	"LOGIC BOMB": {
+		"url": "logıc bomb.png"
+	},
+	"LUISON": {
+		"url": "luıson.png"
+	},
+	"LV EXPLOSIVE LANCE": {
+		"url": "lv explosıve lance.png"
+	},
+	"M1014": {
+		"url": "m1014.png"
+	},
+	"M12": {
+		"url": "m12.png"
+	},
+	"M249": {
+		"url": "m249.png"
+	},
+	"M249 SAW": {
+		"url": "m249 saw.png"
+	},
+	"M4 GS": {
+		"url": "m4 gs.png"
+	},
+	"M590A1": {
+		"url": "m590a1.png"
+	},
+	"M762": {
+		"url": "m762.png"
+	},
+	"M870": {
+		"url": "m870.png"
+	},
+	"MAG-NET SYSTEM": {
+		"url": "mag-net system.png"
+	},
+	"MK 14 EBR": {
+		"url": "mk 14 ebr.png"
+	},
+	"MK1 9MM": {
+		"url": "mk1 9mm.png"
+	},
+	"MK17 CQB": {
+		"url": "mk17 cqb.png"
+	},
+	"MP5": {
+		"url": "mp5.png"
+	},
+	"MP5K": {
+		"url": "mp5k.png"
+	},
+	"MP5SD": {
+		"url": "mp5sd.png"
+	},
+	"MP7": {
+		"url": "mp7.png"
+	},
+	"MPX": {
+		"url": "mpx.png"
+	},
+	"MX4 STORM": {
+		"url": "mx4 storm.png"
+	},
+	"NITRO CELL": {
+		"url": "nıtro cell.png"
+	},
+	"P-10C": {
+		"url": "p-10c.png"
+	},
+	"P10 RONI": {
+		"url": "p10 ronı.png"
+	},
+	"P12": {
+		"url": "p12.png"
+	},
+	"P226 MK 25": {
+		"url": "p226 mk 25.png"
+	},
+	"P229 RC": {
+		"url": "p229 rc.png"
+	},
+	"P9": {
+		"url": "p9.png"
+	},
+	"P90": {
+		"url": "p90.png"
+	},
+	"PARA-308": {
+		"url": "para-308.png"
+	},
+	"PDW9": {
+		"url": "pdw9.png"
+	},
+	"PEST LAUNCHER": {
+		"url": "pest launcher.png"
+	},
+	"PMM": {
+		"url": "pmm.png"
+	},
+	"PRB92": {
+		"url": "prb92.png"
+	},
+	"PRISMA": {
+		"url": "prısma.png"
+	},
+	"PROXIMITY ALARM": {
+		"url": "proxımıty alarm.png"
+	},
+	"Q-929": {
+		"url": "q-929.png"
+	},
+	"R4-C": {
+		"url": "r4-c.png"
+	},
+	"RCE-RATERO CHARGE": {
+		"url": "rce-ratero charge.png"
+	},
+	"REMAH DASH": {
+		"url": "remah dash.png"
+	},
+	"REMOTE GAS GRENADE": {
+		"url": "remote gas grenade.png"
+	},
+	"RG15": {
+		"url": "rg15.png"
+	},
+	"RIFLE SHIELD": {
+		"url": "rıfle shıeld.png"
+	},
+	"RTILA ELECTROCLAW": {
+		"url": "rtıla electroclaw.png"
+	},
+	"S.E.L.M.A. AQUA BREACHER": {
+		"url": "s.e.l.m.a. aqua breacher.png"
+	},
+	"SASG-12": {
+		"url": "sasg-12.png"
+	},
+	"SC3000K": {
+		"url": "sc3000k.png"
+	},
+	"SCORPION EVO 3 A1": {
+		"url": "scorpıon evo 3 a1.png"
+	},
+	"SDP 9MM": {
+		"url": "sdp 9mm.png"
+	},
+	"SECONDARY WEAPON": {
+		"url": "secondary weapon.png"
+	},
+	"SG-CQB": {
+		"url": "sg-cqb.png"
+	},
+	"SHOCK DRONES": {
+		"url": "shock drones.png"
+	},
+	"SHOCK WIRE": {
+		"url": "shock wıre.png"
+	},
+	"SHUMIKHA LAUNCHER": {
+		"url": "shumıkha launcher.png"
+	},
+	"SIGNAL DISRUPTOR": {
+		"url": "sıgnal dısruptor.png"
+	},
+	"SILENT STEP": {
+		"url": "sılent step.png"
+	},
+	"SIX12": {
+		"url": "sıx12.png"
+	},
+	"SIX12 SD": {
+		"url": "sıx12 sd.png"
+	},
+	"SKELETON KEY": {
+		"url": "skeleton key.png"
+	},
+	"SMOKE GRENADE": {
+		"url": "smoke grenade.png"
+	},
+	"SPAS-12": {
+		"url": "spas-12.png"
+	},
+	"SPAS-15": {
+		"url": "spas-15.png"
+	},
+	"SPEAR .308": {
+		"url": "spear .308.png"
+	},
+	"SPSMG9": {
+		"url": "spsmg9.png"
+	},
+	"SR-25": {
+		"url": "sr-25.png"
+	},
+	"STIM PISTOL": {
+		"url": "stım pıstol.png"
+	},
+	"STUN GRENADE": {
+		"url": "stun grenade.png"
+	},
+	"SUPER 90": {
+		"url": "super 90.png"
+	},
+	"SUPER SHORTY": {
+		"url": "super shorty.png"
+	},
+	"SUPERNOVA": {
+		"url": "supernova.png"
+	},
+	"SURYA GATE": {
+		"url": "surya gate.png"
+	},
+	"T-5 SMG": {
+		"url": "t-5 smg.png"
+	},
+	"T-95 LSW": {
+		"url": "t-95 lsw.png"
+	},
+	"TACTICAL BREACHING HAMMER": {
+		"url": "tactıcal breachıng hammer.png"
+	},
+	"TACTICAL CROSSBOW": {
+		"url": "tactıcal crossbow.png"
+	},
+	"TCSG12": {
+		"url": "tcsg12.png"
+	},
+	"TRAX STINGERS": {
+		"url": "trax stıngers.png"
+	},
+	"TYPE-89": {
+		"url": "type-89.png"
+	},
+	"UMP45": {
+		"url": "ump45.png"
+	},
+	"USP40": {
+		"url": "usp40.png"
+	},
+	"V308": {
+		"url": "v308.png"
+	},
+	"VECTOR .45 ACP": {
+		"url": "vector .45 acp.png"
+	},
+	"VOLCAN SHIELD": {
+		"url": "volcan shıeld.png"
+	},
+	"WELCOME MAT": {
+		"url": "welcome mat.png"
+	},
+	"X-KAIROS": {
+		"url": "x-kaıros.png"
+	},
+	"YOKAI": {
+		"url": "yokaı.png"
+	}
+}
