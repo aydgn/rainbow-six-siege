@@ -11,24 +11,26 @@ export const getStaticProps = async () => {
 };
 
 function index({ operators }) {
+	const titleStyles =
+		"text-xl font-bold my-5 border-b text-center md:text-left";
+	const gridDivStyles =
+		"grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-2 lg:gap-5";
 	return (
 		<Layout>
 			<Head>
 				<title>Operators</title>
 			</Head>
-			<div className="container mx-auto">
-				<h2 className="text-xl font-bold mb-3 border-b">
-					Atackers ({operators.attackers.length})
-				</h2>
-				<div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-2 lg:gap-5">
+			<div className="container mx-auto px-5 md:px-0 pb-5">
+				<h2 className={titleStyles}>Atackers ({operators.attackers.length})</h2>
+				<div className={gridDivStyles}>
 					{operators.attackers.map((op) => {
 						return <Op name={op} key={op} />;
 					})}
 				</div>
-				<h2 className="text-xl font-bold my-5 border-b">
+				<h2 className={titleStyles}>
 					Defenders ({operators.defenders.length})
 				</h2>
-				<div className="grid grid-cols-3 md:grid-cols-10 gap-4">
+				<div className={gridDivStyles}>
 					{operators.defenders.map((op) => {
 						return <Op name={op} key={op} />;
 					})}

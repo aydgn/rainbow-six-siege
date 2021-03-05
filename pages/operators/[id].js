@@ -86,7 +86,7 @@ export default function Post(props) {
 
 			{/* GUNS */}
 
-			<div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
+			<div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
 				<Grid title="Primary Weapon" contentClass="uppercase">
 					<div className="primary1 ">{props.id[`${id}`].primaryweapon1}</div>
 					<div className="primary2">{props.id[`${id}`].primaryweapon2}</div>
