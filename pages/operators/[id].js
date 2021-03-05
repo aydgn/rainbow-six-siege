@@ -8,14 +8,15 @@ export default function Post(props) {
 	// Router
 	const router = useRouter();
 	const { id } = router.query;
-	const detailStyle = "text-center border rounded flex flex-col";
 	return (
 		<Layout>
 			<Head>
 				<title>{id.toUpperCase()}</title>
 			</Head>
+
 			{/* First section */}
-			<section className="container mx-auto flex w-full bg-gray-50 p-5 -mt-8 justify-between sm:justify-evenly items-center">
+
+			<section className="container mx-auto flex bg-gray-700 text-white p-5 -mt-8 justify-between sm:justify-evenly items-center">
 				<div className="leftCol flex flex-col sm:flex-row sm:space-x-8 justify-between px-5 sm:place-items-center">
 					<h1
 						className="opName text-4xl xl:text-6xl capitalize pb-3 font-bold"
@@ -27,7 +28,9 @@ export default function Post(props) {
 						{props.id[`${id}`].realname}
 					</span>
 				</div>
+
 				{/* Right Col */}
+
 				<div className="right flex">
 					<Image
 						src={`/images/opicons/${id}.svg`}
@@ -38,26 +41,32 @@ export default function Post(props) {
 					/>
 				</div>
 			</section>
+
 			{/* Stats / Second section */}
-			<section className="container mx-auto flex w-full bg-gray-50 px-5 pb-5">
-				<div className="grid grid-cols-3 text-center mx-auto w-full md:w-auto">
-					<span className="border rounded px-">
+
+			<section className="container mx-auto flex bg-gray-700 text-white px-5 pb-5">
+				<div className="grid grid-cols-3 gap-1 text-center mx-auto w-full md:w-auto">
+					<span className="border rounded px-3 border-gray-600">
 						Armor: {props.id[`${id}`].armor}
 					</span>
-					<span className="border rounded px-3">
+					<span className="border rounded px-3 border-gray-600">
 						Speed: {props.id[`${id}`].speed}
 					</span>
 					<span
 						className={
-							props.id[`${id}`].difficulty ? "border rounded px-3" : "hidden"
+							props.id[`${id}`].difficulty
+								? "border rounded px-3 border-gray-600"
+								: "hidden"
 						}
 					>
 						Difficulty: {props.id[`${id}`].difficulty}
 					</span>
 				</div>
 			</section>
-			{/* OP details Grid */}
-			<section className="container mx-auto grid grid-cols-2 md:grid-cols-4 bg-gray-50 rounded-b-3xl pb-3">
+
+			{/* OP DETAILS GRID */}
+
+			<section className="container mx-auto grid grid-cols-2 md:grid-cols-4 bg-gray-700 text-white rounded-b-3xl pb-3 px-3">
 				<Grid title="Side" contentClass="capitalize">
 					{props.id[`${id}`].side}
 				</Grid>
@@ -72,7 +81,29 @@ export default function Post(props) {
 				</Grid>
 			</section>
 			<div className="loadout container mx-auto py-5">
-				<h2 className="text-3xl border-l-8 border-gray-50 pl-3">Loadout</h2>d
+				<h2 className="text-3xl border-l-8 border-gray-50 pl-3">Loadout</h2>
+			</div>
+
+			{/* GUNS */}
+
+			<div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+				<Grid title="Primary Weapon" contentClass="uppercase">
+					<div className="primary1 ">{props.id[`${id}`].primaryweapon1}</div>
+					<div className="primary2">{props.id[`${id}`].primaryweapon2}</div>
+					<div className="primary3">{props.id[`${id}`].primaryweapon3}</div>
+				</Grid>
+				<Grid title="Secondary Weapon" contentClass="uppercase">
+					<div className="secondaryweapon1">
+						{props.id[`${id}`].secondaryweapon1}
+					</div>
+					<div className="secondaryweapon2">
+						{props.id[`${id}`].secondaryweapon2}
+					</div>
+				</Grid>
+				<Grid title="Gadget" contentClass="capitalize">
+					<div className="gagdet1">{props.id[`${id}`].gadget1}</div>
+					<div className="gagdet2">{props.id[`${id}`].gadget2}</div>
+				</Grid>
 			</div>
 		</Layout>
 	);
