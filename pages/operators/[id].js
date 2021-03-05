@@ -2,19 +2,20 @@ import Layout from "../../components/Layout";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import Grid from "../../components/Grid";
 
 export default function Post(props) {
 	// Router
 	const router = useRouter();
 	const { id } = router.query;
-	const detailStyle = "text-center border rounded  flex flex-col";
+	const detailStyle = "text-center border rounded flex flex-col";
 	return (
 		<Layout>
 			<Head>
 				<title>{id.toUpperCase()}</title>
 			</Head>
 			{/* First section */}
-			<section className="flex w-full bg-gray-50 p-5 -mt-8 justify-between sm:justify-evenly items-center">
+			<section className="container mx-auto flex w-full bg-gray-50 p-5 -mt-8 justify-between sm:justify-evenly items-center">
 				<div className="leftCol flex flex-col sm:flex-row sm:space-x-8 justify-between px-5 sm:place-items-center">
 					<h1
 						className="opName text-4xl xl:text-6xl capitalize pb-3 font-bold"
@@ -37,10 +38,10 @@ export default function Post(props) {
 					/>
 				</div>
 			</section>
-			{/* Second section */}
-			<section className="flex w-full bg-gray-50 px-5 pb-5">
-				<div className="grid grid-cols-3 text-center mx-auto">
-					<span className="border rounded px-3">
+			{/* Stats / Second section */}
+			<section className="container mx-auto flex w-full bg-gray-50 px-5 pb-5">
+				<div className="grid grid-cols-3 text-center mx-auto w-full md:w-auto">
+					<span className="border rounded px-">
 						Armor: {props.id[`${id}`].armor}
 					</span>
 					<span className="border rounded px-3">
@@ -56,24 +57,23 @@ export default function Post(props) {
 				</div>
 			</section>
 			{/* OP details Grid */}
-			<section className="grid grid-cols-2 md:grid-cols-4 border-t-4 py-5 justify-items-stretch">
-				<div className={detailStyle}>
-					<span class="font-bold">Side</span>
-					<span class="capitalize">{props.id[`${id}`].side}</span>
-				</div>
-				<div className={detailStyle}>
-					<span class="font-bold">Country</span>
-					<span class="uppercase">{props.id[`${id}`].country}</span>
-				</div>
-				<div className={detailStyle}>
-					<span class="font-bold">Role</span>
-					<span class="capitalize">{props.id[`${id}`].role}</span>
-				</div>
-				<div className={detailStyle}>
-					<span className="font-bold">Company</span>
-					<span className="uppercase">{props.id[`${id}`].company}</span>
-				</div>
+			<section className="container mx-auto grid grid-cols-2 md:grid-cols-4 bg-gray-50 rounded-b-3xl pb-3">
+				<Grid title="Side" contentClass="capitalize">
+					{props.id[`${id}`].side}
+				</Grid>
+				<Grid title="Country" contentClass="capitalize">
+					{props.id[`${id}`].country}
+				</Grid>
+				<Grid title="Role" contentClass="capitalize">
+					{props.id[`${id}`].role}
+				</Grid>
+				<Grid title="Company" contentClass="uppercase">
+					{props.id[`${id}`].company}
+				</Grid>
 			</section>
+			<div className="loadout container mx-auto py-5">
+				<h2 className="text-3xl border-l-8 border-gray-50 pl-3">Loadout</h2>d
+			</div>
 		</Layout>
 	);
 }
