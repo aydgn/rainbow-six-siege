@@ -17,7 +17,7 @@ export default function Post(props) {
 			{/* First section */}
 
 			<section className="container mx-auto flex bg-gray-700 text-white p-5 -mt-8 justify-between sm:justify-evenly items-center">
-				<div className="leftCol flex flex-col sm:flex-row sm:space-x-8 justify-between px-5 sm:place-items-center">
+				<div className="leftCol flex flex-col sm:flex-row sm:space-x-8 justify-between sm:place-items-center">
 					<h1
 						className="opName text-4xl xl:text-6xl capitalize pb-3 font-bold"
 						title={id}
@@ -86,7 +86,7 @@ export default function Post(props) {
 
 			{/* GUNS */}
 
-			<div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+			<div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
 				<Grid title="Primary Weapon" contentClass="uppercase">
 					<div className="primary1 ">{props.id[`${id}`].primaryweapon1}</div>
 					<div className="primary2">{props.id[`${id}`].primaryweapon2}</div>
@@ -100,9 +100,18 @@ export default function Post(props) {
 						{props.id[`${id}`].secondaryweapon2}
 					</div>
 				</Grid>
+
+				{/* GADGETS */}
+
 				<Grid title="Gadget" contentClass="capitalize">
 					<div className="gagdet1">{props.id[`${id}`].gadget1}</div>
 					<div className="gagdet2">{props.id[`${id}`].gadget2}</div>
+				</Grid>
+
+				{/* UNIQUE ABILITY */}
+
+				<Grid title="Unique Ability" contentClass="uppercase">
+					<div className="unique">{props.id[`${id}`].uniqueability}</div>
 				</Grid>
 			</div>
 		</Layout>
