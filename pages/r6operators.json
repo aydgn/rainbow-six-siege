@@ -1060,5 +1060,526 @@
 		"gadget1": "impact grenade",
 		"gadget2": "nitro cell",
 		"uniqueability": "entry denial device"
+	},
+	"guns": {
+		"417": {
+			"url": "417.png"
+		},
+		".44 mag semi-auto": {
+			"url": "44 mag semi-auto.png"
+		},
+		"1911 tacops": {
+			"url": "1911 tacops.png"
+		},
+		"416-c carbine": {
+			"url": "416-c carbine.png"
+		},
+		"5.7 usg": {
+			"url": "5.7 usg.png"
+		},
+		"552 commando": {
+			"url": "552 commando.png"
+		},
+		"556xi": {
+			"url": "556xi.png"
+		},
+		"6p41": {
+			"url": "6p41.png"
+		},
+		"9mm c1": {
+			"url": "9mm c1.png"
+		},
+		"9x19vsn": {
+			"url": "9x19vsn.png"
+		},
+		"acs12": {
+			"url": "acs12.png"
+		},
+		"active defense system": {
+			"url": "active defense system.png"
+		},
+		"adrenal surge": {
+			"url": "adrenal surge.png"
+		},
+		"airjab launcher": {
+			"url": "airjab launcher.png"
+		},
+		"ak-12": {
+			"url": "ak-12.png"
+		},
+		"ak-74m": {
+			"url": "ak-74m.png"
+		},
+		"alda 5.56": {
+			"url": "alda 5.56.png"
+		},
+		"ar-15.50": {
+			"url": "ar-15.50.png"
+		},
+		"ar33": {
+			"url": "ar33.png"
+		},
+		"argus launcher": {
+			"url": "argus launcher.png"
+		},
+		"armor pack": {
+			"url": "armor pack.png"
+		},
+		"armor panel": {
+			"url": "armor panel.png"
+		},
+		"arx200": {
+			"url": "arx200.png"
+		},
+		"aug a2": {
+			"url": "aug a2.png"
+		},
+		"aug a3": {
+			"url": "aug a3.png"
+		},
+		"bailiff 410": {
+			"url": "bailiff 410.png"
+		},
+		"ballistic shield": {
+			"url": "ballistic shield.png"
+		},
+		"banshee sonic defense": {
+			"url": "banshee sonic defense.png"
+		},
+		"barbed wire": {
+			"url": "barbed wire.png"
+		},
+		"black eye": {
+			"url": "black eye.png"
+		},
+		"black mirror": {
+			"url": "black mirror.png"
+		},
+		"bosg.12.2": {
+			"url": "bosg.12.2.png"
+		},
+		"breach charge": {
+			"url": "breach charge.png"
+		},
+		"breaching rounds": {
+			"url": "breaching rounds.png"
+		},
+		"breaching torch": {
+			"url": "breaching torch.png"
+		},
+		"bulletproof camera": {
+			"url": "bulletproof camera.png"
+		},
+		"c75 auto": {
+			"url": "c75 auto.png"
+		},
+		"c7e": {
+			"url": "c7e.png"
+		},
+		"c8-sfw": {
+			"url": "c8-sfw.png"
+		},
+		"camrs": {
+			"url": "camrs.png"
+		},
+		"candela": {
+			"url": "candela.png"
+		},
+		"cce shield": {
+			"url": "cce shield.png"
+		},
+		"claymore": {
+			"url": "claymore.png"
+		},
+		"cluster charge": {
+			"url": "cluster charge.png"
+		},
+		"commando 9": {
+			"url": "commando 9.png"
+		},
+		"csrx 300": {
+			"url": "csrx 300.png"
+		},
+		"d-40": {
+			"url": "d-40.png"
+		},
+		"d-50": {
+			"url": "d-50.png"
+		},
+		"deployable shield": {
+			"url": "deployable shield.png"
+		},
+		"dp27": {
+			"url": "dp27.png"
+		},
+		"ee-one-d": {
+			"url": "ee-one-d.png"
+		},
+		"electronics detector": {
+			"url": "electronics detector.png"
+		},
+		"emp grenade": {
+			"url": "emp grenade.png"
+		},
+		"entry denial device": {
+			"url": "entry denial device.png"
+		},
+		"erc-7": {
+			"url": "erc-7.png"
+		},
+		"evil eye": {
+			"url": "evil eye.png"
+		},
+		"exothermic charge": {
+			"url": "exothermic charge.png"
+		},
+		"eyenox model iii": {
+			"url": "eyenox model iii.png"
+		},
+		"f2": {
+			"url": "f2.png"
+		},
+		"f90": {
+			"url": "f90.png"
+		},
+		"flash shield": {
+			"url": "flash shield.png"
+		},
+		"flip sight": {
+			"url": "flip sight.png"
+		},
+		"fmg-9": {
+			"url": "fmg-9.png"
+		},
+		"fo-12": {
+			"url": "fo-12.png"
+		},
+		"frag grenade": {
+			"url": "frag grenade.png"
+		},
+		"g36c": {
+			"url": "g36c.png"
+		},
+		"g52-tactical shield": {
+			"url": "g52-tactical shield.png"
+		},
+		"g8a1": {
+			"url": "g8a1.png"
+		},
+		"garra hook": {
+			"url": "garra hook.png"
+		},
+		"gemini replicator": {
+			"url": "gemini replicator.png"
+		},
+		"glance smart glasses": {
+			"url": "glance smart glasses.png"
+		},
+		"grzmot mine": {
+			"url": "grzmot mine.png"
+		},
+		"gsh-18": {
+			"url": "gsh-18.png"
+		},
+		"gu mines": {
+			"url": "gu mines.png"
+		},
+		"hard breach charge": {
+			"url": "hard breach charge.png"
+		},
+		"heartbeat sensor": {
+			"url": "heartbeat sensor.png"
+		},
+		"hel presence reduction": {
+			"url": "hel presence reduction.png"
+		},
+		"impact grenade": {
+			"url": "impact grenade.png"
+		},
+		"ita12l": {
+			"url": "ita12l.png"
+		},
+		"ita12s": {
+			"url": "ita12s.png"
+		},
+		"k1a": {
+			"url": "k1a.png"
+		},
+		"keratos .357": {
+			"url": "keratos .357.png"
+		},
+		"ks79 lifeline": {
+			"url": "ks79 lifeline.png"
+		},
+		"l85a2": {
+			"url": "l85a2.png"
+		},
+		"le roc shield": {
+			"url": "le roc shield.png"
+		},
+		"lmg-e": {
+			"url": "lmg-e.png"
+		},
+		"logic bomb": {
+			"url": "logic bomb.png"
+		},
+		"luison": {
+			"url": "luison.png"
+		},
+		"lv explosive lance": {
+			"url": "lv explosive lance.png"
+		},
+		"m1014": {
+			"url": "m1014.png"
+		},
+		"m12": {
+			"url": "m12.png"
+		},
+		"m249": {
+			"url": "m249.png"
+		},
+		"m249 saw": {
+			"url": "m249 saw.png"
+		},
+		"m4 gs": {
+			"url": "m4 gs.png"
+		},
+		"m590a1": {
+			"url": "m590a1.png"
+		},
+		"m762": {
+			"url": "m762.png"
+		},
+		"m870": {
+			"url": "m870.png"
+		},
+		"mag-net system": {
+			"url": "mag-net system.png"
+		},
+		"mk 14 ebr": {
+			"url": "mk 14 ebr.png"
+		},
+		"mk1 9mm": {
+			"url": "mk1 9mm.png"
+		},
+		"mk17 cqb": {
+			"url": "mk17 cqb.png"
+		},
+		"mp5": {
+			"url": "mp5.png"
+		},
+		"mp5k": {
+			"url": "mp5k.png"
+		},
+		"mp5sd": {
+			"url": "mp5sd.png"
+		},
+		"mp7": {
+			"url": "mp7.png"
+		},
+		"mpx": {
+			"url": "mpx.png"
+		},
+		"mx4 storm": {
+			"url": "mx4 storm.png"
+		},
+		"nitro cell": {
+			"url": "nitro cell.png"
+		},
+		"p-10c": {
+			"url": "p-10c.png"
+		},
+		"p10 roni": {
+			"url": "p10 roni.png"
+		},
+		"p12": {
+			"url": "p12.png"
+		},
+		"p226 mk 25": {
+			"url": "p226 mk 25.png"
+		},
+		"p229 rc": {
+			"url": "p229 rc.png"
+		},
+		"p9": {
+			"url": "p9.png"
+		},
+		"p90": {
+			"url": "p90.png"
+		},
+		"para-308": {
+			"url": "para-308.png"
+		},
+		"pdw9": {
+			"url": "pdw9.png"
+		},
+		"pest launcher": {
+			"url": "pest launcher.png"
+		},
+		"pmm": {
+			"url": "pmm.png"
+		},
+		"prb92": {
+			"url": "prb92.png"
+		},
+		"prisma": {
+			"url": "prisma.png"
+		},
+		"proximity alarm": {
+			"url": "proximity alarm.png"
+		},
+		"q-929": {
+			"url": "q-929.png"
+		},
+		"r4-c": {
+			"url": "r4-c.png"
+		},
+		"rce-ratero charge": {
+			"url": "rce-ratero charge.png"
+		},
+		"remah dash": {
+			"url": "remah dash.png"
+		},
+		"remote gas grenade": {
+			"url": "remote gas grenade.png"
+		},
+		"rg15": {
+			"url": "rg15.png"
+		},
+		"rifle shield": {
+			"url": "rifle shield.png"
+		},
+		"rtila electroclaw": {
+			"url": "rtila electroclaw.png"
+		},
+		"s.e.l.m.a. aqua breacher": {
+			"url": "s.e.l.m.a. aqua breacher.png"
+		},
+		"sasg-12": {
+			"url": "sasg-12.png"
+		},
+		"sc3000k": {
+			"url": "sc3000k.png"
+		},
+		"scorpion evo 3 a1": {
+			"url": "scorpion evo 3 a1.png"
+		},
+		"sdp 9mm": {
+			"url": "sdp 9mm.png"
+		},
+		"secondary weapon": {
+			"url": "secondary weapon.png"
+		},
+		"sg-cqb": {
+			"url": "sg-cqb.png"
+		},
+		"shock drones": {
+			"url": "shock drones.png"
+		},
+		"shock wire": {
+			"url": "shock wire.png"
+		},
+		"shumikha launcher": {
+			"url": "shumikha launcher.png"
+		},
+		"signal disruptor": {
+			"url": "signal disruptor.png"
+		},
+		"silent step": {
+			"url": "silent step.png"
+		},
+		"six12": {
+			"url": "six12.png"
+		},
+		"six12 sd": {
+			"url": "six12 sd.png"
+		},
+		"skeleton key": {
+			"url": "skeleton key.png"
+		},
+		"smoke grenade": {
+			"url": "smoke grenade.png"
+		},
+		"spas-12": {
+			"url": "spas-12.png"
+		},
+		"spas-15": {
+			"url": "spas-15.png"
+		},
+		"spear .308": {
+			"url": "spear .308.png"
+		},
+		"spsmg9": {
+			"url": "spsmg9.png"
+		},
+		"sr-25": {
+			"url": "sr-25.png"
+		},
+		"stim pistol": {
+			"url": "stim pistol.png"
+		},
+		"stun grenade": {
+			"url": "stun grenade.png"
+		},
+		"super 90": {
+			"url": "super 90.png"
+		},
+		"super shorty": {
+			"url": "super shorty.png"
+		},
+		"supernova": {
+			"url": "supernova.png"
+		},
+		"surya gate": {
+			"url": "surya gate.png"
+		},
+		"t-5 smg": {
+			"url": "t-5 smg.png"
+		},
+		"t-95 lsw": {
+			"url": "t-95 lsw.png"
+		},
+		"tactical breaching hammer": {
+			"url": "tactical breaching hammer.png"
+		},
+		"tactical crossbow": {
+			"url": "tactical crossbow.png"
+		},
+		"tcsg12": {
+			"url": "tcsg12.png"
+		},
+		"trax stingers": {
+			"url": "trax stingers.png"
+		},
+		"type-89": {
+			"url": "type-89.png"
+		},
+		"ump45": {
+			"url": "ump45.png"
+		},
+		"usp40": {
+			"url": "usp40.png"
+		},
+		"v308": {
+			"url": "v308.png"
+		},
+		"vector .45 acp": {
+			"url": "vector .45 acp.png"
+		},
+		"volcan shield": {
+			"url": "volcan shield.png"
+		},
+		"welcome mat": {
+			"url": "welcome mat.png"
+		},
+		"x-kairos": {
+			"url": "x-kairos.png"
+		},
+		"yokai": {
+			"url": "yokai.png"
+		},
+		"lfp586": {
+			"url": "lfp586.png"
+		}
 	}
 }

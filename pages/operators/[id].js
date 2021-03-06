@@ -3,21 +3,18 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Grid from "../../components/Grid";
-import guns from "../../pages/guns.json";
 
 export default function Post(props) {
-	// Router
 	const router = useRouter();
 	const { id } = router.query;
 	return (
 		<Layout>
-			{/* 			{console.log(guns[props.id[`${id}`].primaryweapon2.toUpperCase()].url)}
-			 */}
-			{console.log(props.id[`${id}`].primaryweapon2)}
 			<Head>
 				<title>{id.toUpperCase()}</title>
 			</Head>
+
 			{/* First section */}
+
 			<section className="container mx-auto flex bg-gray-700 text-white p-5 -mt-8 justify-between sm:justify-evenly items-center">
 				<div className="leftCol flex flex-col sm:flex-row sm:space-x-8 justify-between sm:place-items-center">
 					<h1
@@ -43,7 +40,9 @@ export default function Post(props) {
 					/>
 				</div>
 			</section>
+
 			{/* Stats / Second section */}
+
 			<section className="container mx-auto flex bg-gray-700 text-white px-5 pb-5">
 				<div className="grid grid-cols-3 gap-1 text-center mx-auto w-full md:w-auto">
 					<span className="border rounded px-3 border-gray-600">
@@ -63,7 +62,9 @@ export default function Post(props) {
 					</span>
 				</div>
 			</section>
+
 			{/* OP DETAILS GRID */}
+
 			<section className="container mx-auto grid grid-cols-2 md:grid-cols-4 bg-gray-700 text-white rounded-b-3xl pb-3 px-3">
 				<Grid title="Side" contentClass="capitalize">
 					{props.id[`${id}`].side}
@@ -81,35 +82,16 @@ export default function Post(props) {
 			<div className="loadout container mx-auto py-5">
 				<h2 className="text-3xl border-l-8 border-gray-50 pl-3">Loadout</h2>
 			</div>
+
 			{/* GUNS */}
+
 			<div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
 				<Grid title="Primary Weapon" contentClass="uppercase">
 					<div className="primary1 ">{props.id[`${id}`].primaryweapon1}</div>
-					<Image
-						src={`/images/gunicons/${props.id[`${id}`].primaryweapon1}.png`}
-						height={100}
-						width={280}
-						layout="responsive"
-						className="mx-auto"
-					/>
+
 					<div className="primary2">{props.id[`${id}`].primaryweapon2}</div>
-					<Image
-						src={`/images/gunicons/${
-							guns[props.id[`${id}`].primaryweapon2].url
-						}`}
-						height={100}
-						width={280}
-						layout="responsive"
-						className="mx-auto"
-					/>
+
 					<div className="primary3">{props.id[`${id}`].primaryweapon3}</div>
-					<Image
-						src={`/images/gunicons/${props.id[`${id}`].primaryweapon3}.png`}
-						height={100}
-						width={280}
-						layout="responsive"
-						className="mx-auto"
-					/>
 				</Grid>
 				<Grid title="Secondary Weapon" contentClass="uppercase">
 					<div className="secondaryweapon1">
