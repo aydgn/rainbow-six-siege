@@ -1,122 +1,148 @@
 ﻿[
 	{
-		"Name": "Bank",
-		"Location": "Los Angeles, California",
-		"Playlist": ["New Comer", "Ranked", "Deathmatch"],
-		"Description": "Team Rainbow has been called to raid a major bank. The focus is on providing a sense of progression for attackers as they make their way through progressively more fortified areas of the building."
+		"id": "bank",
+		"name": "Bank",
+		"location": "Los Angeles, California",
+		"playlist": ["New Comer", "Ranked", "Deathmatch"],
+		"desc": "Team Rainbow has been called to raid a major bank. The focus is on providing a sense of progression for attackers as they make their way through progressively more fortified areas of the building.",
+		"video": "https://youtu.be/Rn8-ogeD4NY"
 	},
 	{
-		"Name": "Border",
-		"Location": "Middle East",
-		"Playlist": ["Ranked", "Quick Match"],
-		"Description": "Team Rainbow has been called in to assist the local law enforcement and regain control of the border. A mix of old and new buildings with open air pathways make this the most destructible and open planned map to date."
+		"id": "border",
+		"name": "Border",
+		"location": "Middle East",
+		"playlist": ["Ranked", "Quick Match", ""],
+		"desc": "Team Rainbow has been called in to assist the local law enforcement and regain control of the border. A mix of old and new buildings with open air pathways make this the most destructible and open planned map to date.",
+		"video": "https://youtu.be/u5sgw1KLLmY"
 	},
 	{
-		"Name": "Chalet",
-		"Location": "Courchevel, France",
-		"Playlist": ["New Comer", "Ranked", "Quick Match"],
-		"Description": "A shootout in an “après-ski” chalet in the French alps. This area contrasts the warm, cozy mood of its interiors with the cold, constrained visibility of its exteriors."
+		"id": "chalet",
+		"name": "Chalet",
+		"location": "Courchevel, France",
+		"playlist": ["New Comer", "Ranked", "Quick Match"],
+		"desc": "A shootout in an “après-ski” chalet in the French alps. This area contrasts the warm, cozy mood of its interiors with the cold, constrained visibility of its exteriors.",
+		"video": "https://youtu.be/dUBpOXuPt3o"
 	},
 	{
-		"Name": "Clubhouse",
-		"Location": "Hanover, Germany",
-		"Playlist": ["Ranked", "Quick Match"],
-		"Description": "This map depicts an assault on a biker gang clubhouse. Featuring a full bar, gaming tables and leather furniture, this mixed interior/exterior layout offers a host of interesting tactical possibilities for both attacker and defender."
+		"id": "clubhouse",
+		"name": "Clubhouse",
+		"location": "Hanover, Germany",
+		"playlist": ["Ranked", "Quick Match", ""],
+		"desc": "This map depicts an assault on a biker gang clubhouse. Featuring a full bar, gaming tables and leather furniture, this mixed interior/exterior layout offers a host of interesting tactical possibilities for both attacker and defender.",
+		"video": "https://youtu.be/NSvLkwGfcFc"
 	},
 	{
-		"Name": "Coastline",
-		"Location": "Ibiza, Spain",
-		"Playlist": ["Ranked", "Quick Match"],
-		"Description": "Team Rainbow has been called to safeguard the seashore of Ibiza, Spain. Stationed on Ibiza’s rocky shore, course through Balearic ruins and navigate booming bars to neutralize the threat. Get ready for a surround flow of combat laced with chaotic rushes as you explore a paradise gone wrong."
+		"id": "coastline",
+		"name": "Coastline",
+		"location": "Ibiza, Spain",
+		"playlist": ["Ranked", "Quick Match", ""],
+		"desc": "Team Rainbow has been called to safeguard the seashore of Ibiza, Spain. Stationed on Ibiza’s rocky shore, course through Balearic ruins and navigate booming bars to neutralize the threat. Get ready for a surround flow of combat laced with chaotic rushes as you explore a paradise gone wrong.",
+		"video": "https://youtu.be/0G59efQER9E"
 	},
 	{
-		"Name": "Consulate",
-		"Location": "Abidjan, Ivory Coast",
-		"Playlist": ["New Comer", "Ranked", "Quick Match"],
-		"Description": "A high-risk, highly secured fortified location, this map depicts an assault on a French consulate in Ivory Coast."
+		"id": "consulate",
+		"name": "Consulate",
+		"location": "Abidjan, Ivory Coast",
+		"playlist": ["New Comer", "Ranked", "Quick Match"],
+		"desc": "A high-risk, highly secured fortified location, this map depicts an assault on a French consulate in Ivory Coast.",
+		"video": "https://youtu.be/Qw3CPU7Zi-s"
 	},
 	{
-		"Name": "Favela",
-		"Location": "Brazil",
-		"Playlist": ["New Comer", "Deathmatch", "Quick Match"],
-		"Description": "Team Rainbow has been called to pacify and regain control of the Favela. Mixing colorful and narrow streets with high vantage points, this map supports exterior shell destruction which renders it as the most destructible to date."
+		"id": "favela",
+		"name": "Favela",
+		"location": "Brazil",
+		"playlist": ["New Comer", "Deathmatch", "Quick Match"],
+		"desc": "Team Rainbow has been called to pacify and regain control of the Favela. Mixing colorful and narrow streets with high vantage points, this map supports exterior shell destruction which renders it as the most destructible to date."
 	},
 	{
-		"Name": "Fortress",
-		"Location": "Morocco",
-		"Playlist": [],
-		"Description": "This large daytime map features a mudbrick kasbah and iconic architecture unique to the southern region of Morocco. The imposing main entrance greets all visitors with its two towers and Kasbah Sehkra Mania written above the archway."
+		"id": "fortress",
+		"name": "Fortress",
+		"location": "Morocco",
+		"playlist": ["", "", ""],
+		"desc": "This large daytime map features a mudbrick kasbah and iconic architecture unique to the southern region of Morocco. The imposing main entrance greets all visitors with its two towers and Kasbah Sehkra Mania written above the archway."
 	},
 	{
-		"Name": "Hereford Base",
-		"Location": "United KINGDOM",
-		"Playlist": ["Quick Match"],
-		"Description": "This is where SAS agents learn their craft and as such it a patchwork of plywood targets, sandbags, barbed wire and other obstacles. One of the most archetypal examples of siege gameplay."
+		"id": "hereford-base",
+		"name": "Hereford Base",
+		"location": "United Kingdom",
+		"playlist": ["Quick Match", "", ""],
+		"desc": "This is where SAS agents learn their craft and as such it a patchwork of plywood targets, sandbags, barbed wire and other obstacles. One of the most archetypal examples of siege gameplay."
 	},
 	{
-		"Name": "House",
-		"Location": "Los Angeles, California",
-		"Playlist": [],
-		"Description": "Playing on themes of familiarity and vulnerability, this encounter takes place in a typical suburban home. It’s a prime example of destructive depth and replayability, and is one of the showcases for classic siege gameplay."
+		"id": "house",
+		"name": "House",
+		"location": "Los Angeles, California",
+		"playlist": ["", "", ""],
+		"desc": "Playing on themes of familiarity and vulnerability, this encounter takes place in a typical suburban home. It’s a prime example of destructive depth and replayability, and is one of the showcases for classic siege gameplay."
 	},
 	{
-		"Name": "Kafe Dostoyevsky",
-		"Location": "Moscow, Russia",
-		"Playlist": ["Ranked", "Quick Match"],
-		"Description": "This high-class café in central Moscow is the pinnacle of glitz and glamour, and is a natural intervention ground for Spetsnaz forces. Destruction of the rich, chic, classic decor will be a key element of this map."
+		"id": "kafe-dostoyevsky",
+		"name": "Kafe Dostoyevsky",
+		"location": "Moscow, Russia",
+		"playlist": ["Ranked", "Quick Match", ""],
+		"desc": "This high-class café in central Moscow is the pinnacle of glitz and glamour, and is a natural intervention ground for Spetsnaz forces. Destruction of the rich, chic, classic decor will be a key element of this map."
 	},
 	{
-		"Name": "Kanal",
-		"Location": "Hamburg, Germany",
-		"Playlist": ["Ranked", "Quick Match"],
-		"Description": "Taking place in the industrial area of Hamburg, Germany, ‘Kanal’ involves multiple buildings with strategic connecting points over canals. It features many interesting strategic possibilities created by the many bridges, buildings and related vantage points of its terrain."
+		"id": "kanal",
+		"name": "Kanal",
+		"location": "Hamburg, Germany",
+		"playlist": ["Ranked", "Quick Match", ""],
+		"desc": "Taking place in the industrial area of Hamburg, Germany, ‘Kanal’ involves multiple buildings with strategic connecting points over canals. It features many interesting strategic possibilities created by the many bridges, buildings and related vantage points of its terrain."
 	},
 	{
-		"Name": "Oregon",
-		"Location": "Redmond, Oregon",
-		"Playlist": ["Ranked", "Quick Match"],
-		"Description": "Oregon depicts an assault on a fortified survivalist compound. It feels rustic, eclectic and lived-in, and covers a vast, spread out layout requiring adapted tactics to sweep and hold effectively."
+		"id": "oregon",
+		"name": "Oregon",
+		"location": "Redmond, Oregon",
+		"playlist": ["Ranked", "Quick Match", ""],
+		"desc": "Oregon depicts an assault on a fortified survivalist compound. It feels rustic, eclectic and lived-in, and covers a vast, spread out layout requiring adapted tactics to sweep and hold effectively."
 	},
 	{
-		"Name": "Outback",
-		"Location": "Australia",
-		"Playlist": ["Ranked", "Quick Match"],
-		"Description": "Set in Australia’s Red Heart, this map is an homage to all the dusty service stations and motels that populate the forgotten highways of the continent, places filled with hardworking locals and specialty menu items you’ll find nowhere else."
+		"id": "outback",
+		"name": "Outback",
+		"location": "Australia",
+		"playlist": ["Ranked", "Quick Match", ""],
+		"desc": "Set in Australia’s Red Heart, this map is an homage to all the dusty service stations and motels that populate the forgotten highways of the continent, places filled with hardworking locals and specialty menu items you’ll find nowhere else."
 	},
 	{
-		"Name": "Presidential Plane",
-		"Location": "London, United Kingdom",
-		"Playlist": [],
-		"Description": "This presidential plane offers an exotic and unique siege experience. It is claustrophobic, tense and constrained, involving limited breaching opportunities and sight lines."
+		"id": "presidential-plane",
+		"name": "Presidential Plane",
+		"location": "London, United Kingdom",
+		"playlist": ["", "", ""],
+		"desc": "This presidential plane offers an exotic and unique siege experience. It is claustrophobic, tense and constrained, involving limited breaching opportunities and sight lines."
 	},
 	{
-		"Name": "Skyscraper",
-		"Location": "Nagoya, Japan",
-		"Playlist": ["Quick Match", "Ranked"],
-		"Description": "Team Rainbow has been called to neutralize a Yakuza war brewing high above the streets of Nagoya, Japan. Perched on top of Skyscraper, you will explore refined works of Japanese architecture inside a dangerous mansion. Be prepared for vertiginous rappels in the haze of the morning sun, where modernity and tradition meet."
+		"id": "skyscraper",
+		"name": "Skyscraper",
+		"location": "Nagoya, Japan",
+		"playlist": ["Quick Match", "Ranked", ""],
+		"desc": "Team Rainbow has been called to neutralize a Yakuza war brewing high above the streets of Nagoya, Japan. Perched on top of Skyscraper, you will explore refined works of Japanese architecture inside a dangerous mansion. Be prepared for vertiginous rappels in the haze of the morning sun, where modernity and tradition meet."
 	},
 	{
-		"Name": "Theme Park",
-		"Location": "Hong Kong",
-		"Playlist": ["Quick Match", "Ranked"],
-		"Description": "Team Rainbow has been called to raid an abandoned theme park on the shores of Hong Kong. Lead a lethal raid in this challenging perimeter. Get ready to discover a colorful and eclectic new map filled with dynamic and fast-paced face-offs."
+		"id": "theme-park",
+		"name": "Theme Park",
+		"location": "Hong Kong",
+		"playlist": ["Quick Match", "Ranked", ""],
+		"desc": "Team Rainbow has been called to raid an abandoned theme park on the shores of Hong Kong. Lead a lethal raid in this challenging perimeter. Get ready to discover a colorful and eclectic new map filled with dynamic and fast-paced face-offs."
 	},
 	{
-		"Name": "Tower",
-		"Location": "Seoul, South Korea",
-		"Playlist": [],
-		"Description": "Scale the snow-capped Mok Myeok Tower to lead a rescue mission in Seoul, South Korea. The modern communications and observation tower offers fresh vertical vantage points overlooking the entire cityscape, and sets the stage for diverse multilevel tactics."
+		"id": "tower",
+		"name": "Tower",
+		"location": "Seoul, South Korea",
+		"playlist": ["", "", ""],
+		"desc": "Scale the snow-capped Mok Myeok Tower to lead a rescue mission in Seoul, South Korea. The modern communications and observation tower offers fresh vertical vantage points overlooking the entire cityscape, and sets the stage for diverse multilevel tactics."
 	},
 	{
-		"Name": "Villa",
-		"Location": "Tuscany, Italy",
-		"Playlist": ["Quick Match", "Ranked"],
-		"Description": "The land belongs to the Vinciguerra, a dangerous crime family known for their smuggling activities. Now we catch the villa in a snapshot of time: Vinciguerras are burning documents and transporting their holdings before the big raid. But they’ve got wind of Operation Para Bellum and fled, leaving everything in disarray with vital information ready for the taking."
+		"id": "villa",
+		"name": "Villa",
+		"location": "Tuscany, Italy",
+		"playlist": ["Quick Match", "Ranked", ""],
+		"desc": "The land belongs to the Vinciguerra, a dangerous crime family known for their smuggling activities. Now we catch the villa in a snapshot of time: Vinciguerras are burning documents and transporting their holdings before the big raid. But they’ve got wind of Operation Para Bellum and fled, leaving everything in disarray with vital information ready for the taking."
 	},
 	{
-		"Name": "Yacht",
-		"Location": "Baffin Bay",
-		"Playlist": ["Quick Match"],
-		"Description": "In the Baffin Bay, a luxury yacht has crashed into an iceberg breaching the hull. Rainbow has been sent to secure the stranded vessel as an unidentified submarine has docked near the vessel."
+		"id": "yacht",
+		"name": "Yacht",
+		"location": "Baffin Bay",
+		"playlist": ["Quick Match", "", ""],
+		"desc": "In the Baffin Bay, a luxury yacht has crashed into an iceberg breaching the hull. Rainbow has been sent to secure the stranded vessel as an unidentified submarine has docked near the vessel."
 	}
 ]

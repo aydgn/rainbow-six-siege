@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import Grid from "../../components/Grid";
 
-export default function Post(props) {
+export default function Operators(props) {
 	const router = useRouter();
 	const { id } = router.query;
 	return (
@@ -189,7 +189,7 @@ export async function getStaticPaths() {
 }
 
 export const getStaticProps = async () => {
-	const res = (await import("../r6operators.json")).default;
+	const res = (await import("../maps.json")).default;
 
 	return {
 		props: { id: res },
