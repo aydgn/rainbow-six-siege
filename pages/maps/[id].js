@@ -83,7 +83,7 @@ export async function getStaticPaths() {
 		{ params: { id: "theme-park" } },
 		{ params: { id: "tower" } },
 		{ params: { id: "villa" } },
-		{ params: { id: "yacth" } },
+		{ params: { id: "yacht" } },
 	];
 
 	return {
