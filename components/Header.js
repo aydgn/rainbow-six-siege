@@ -8,15 +8,15 @@ function Header() {
 				<Link href="/operators">
 					<a className={navStyle}>Operators</a>
 				</Link>
-				<Link href="/weapons">
+				{/* <Link href="/weapons">
 					<a className={navStyle}>Weapons</a>
-				</Link>
+				</Link> */}
 				<Link href="/maps">
 					<a className={navStyle}>Maps</a>
 				</Link>
-				<Link href="/gamemodes">
+				{/* <Link href="/gamemodes">
 					<a className={navStyle}>Game Modes</a>
-				</Link>
+				</Link> */}
 			</nav>
 		</header>
 	);

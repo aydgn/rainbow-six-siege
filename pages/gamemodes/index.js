@@ -1,14 +1,13 @@
 import Head from "next/head";
-import Header from "../../components/Header";
+import Layout from "../../components/Layout";
 
 function index() {
 	return (
-		<div>
+		<Layout>
 			<Head>
 				<title>Game Modes</title>
 			</Head>
-			<Header />
-		</div>
+		</Layout>
 	);
 }
 
