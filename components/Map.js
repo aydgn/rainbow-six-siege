@@ -9,9 +9,7 @@ export default function Map(props) {
 						{props.mapname}
 					</span>
 					<Image
-						src={`/images/maps/${props.mapname
-							.replace(/ +/g, "")
-							.toLowerCase()}.webp`}
+						src={`/images/maps/${props.url}.webp`}
 						width={384}
 						height={214}
 						alt={props.mapname}
@@ -23,5 +21,3 @@ export default function Map(props) {
 		</section>
 	);
 }
-
-/* shadow-small hover:shadow-medium transition-shadow duration-200 */

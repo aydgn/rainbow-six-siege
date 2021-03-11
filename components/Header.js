@@ -3,7 +3,7 @@ function Header() {
 	const navStyle =
 		"py-5 px-10 md:p-5 hover:bg-gray-900 text-lg flex-1 text-center";
 	return (
-		<header className="bg-gray-800 mb-8">
+		<header className="bg-gray-800">
 			<nav className="lg:container mx-auto flex text-white justify-evenly">
 				<Link href="/operators">
 					<a className={navStyle}>Operators</a>

@@ -9,7 +9,7 @@ function index() {
 			<Head>
 				<title>Maps</title>
 			</Head>
-			<div className="container mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+			<div className="container mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 py-8">
 				{Maps.map((x) => (
 					<Map mapname={x.name} key={x.id} url={x.id} />
 				))}

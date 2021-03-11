@@ -15,7 +15,7 @@ export default function Operators(props) {
 
 			{/* First section */}
 
-			<section className="container mx-auto flex bg-gray-700 text-white p-5 -mt-8 justify-between sm:justify-evenly items-center">
+			<section className="container mx-auto flex bg-gray-700 text-white p-5 justify-between sm:justify-evenly items-center">
 				<div className="leftCol flex flex-col sm:flex-row sm:space-x-8 justify-between sm:place-items-center">
 					<h1
 						className="opName text-4xl xl:text-6xl capitalize pb-3 font-bold"
@@ -69,7 +69,7 @@ export default function Operators(props) {
 				<Grid title="Side" contentClass="capitalize">
 					{props.id[`${id}`].side}
 				</Grid>
-				<Grid title="Country" contentClass="capitalize">
+				<Grid title="Country" contentClass="uppercase">
 					{props.id[`${id}`].country}
 				</Grid>
 				<Grid title="Role" contentClass="capitalize">
@@ -87,7 +87,7 @@ export default function Operators(props) {
 
 			<div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
 				<Grid title="Primary Weapon" contentClass="uppercase">
-					<div className="primary1 ">{props.id[`${id}`].primaryweapon1}</div>
+					<div className="primary1">{props.id[`${id}`].primaryweapon1}</div>
 
 					<div className="primary2">{props.id[`${id}`].primaryweapon2}</div>
 
@@ -189,7 +189,7 @@ export async function getStaticPaths() {
 }
 
 export const getStaticProps = async () => {
-	const res = (await import("../maps.json")).default;
+	const res = (await import("../r6operators.json")).default;
 
 	return {
 		props: { id: res },
