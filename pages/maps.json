@@ -5,7 +5,7 @@
 		"location": "Los Angeles, California",
 		"playlist": ["New Comer", "Ranked", "Deathmatch"],
 		"desc": "Team Rainbow has been called to raid a major bank. The focus is on providing a sense of progression for attackers as they make their way through progressively more fortified areas of the building.",
-		"video": "https://youtu.be/Rn8-ogeD4NY"
+		"video": "Rn8-ogeD4NY"
 	},
 	{
 		"id": "border",
@@ -13,7 +13,7 @@
 		"location": "Middle East",
 		"playlist": ["Ranked", "Quick Match"],
 		"desc": "Team Rainbow has been called in to assist the local law enforcement and regain control of the border. A mix of old and new buildings with open air pathways make this the most destructible and open planned map to date.",
-		"video": "https://youtu.be/u5sgw1KLLmY"
+		"video": "u5sgw1KLLmY"
 	},
 	{
 		"id": "chalet",
@@ -21,7 +21,7 @@
 		"location": "Courchevel, France",
 		"playlist": ["New Comer", "Ranked", "Quick Match"],
 		"desc": "A shootout in an “après-ski” chalet in the French alps. This area contrasts the warm, cozy mood of its interiors with the cold, constrained visibility of its exteriors.",
-		"video": "https://youtu.be/dUBpOXuPt3o"
+		"video": "dUBpOXuPt3o"
 	},
 	{
 		"id": "clubhouse",
@@ -29,7 +29,7 @@
 		"location": "Hanover, Germany",
 		"playlist": ["Ranked", "Quick Match"],
 		"desc": "This map depicts an assault on a biker gang clubhouse. Featuring a full bar, gaming tables and leather furniture, this mixed interior/exterior layout offers a host of interesting tactical possibilities for both attacker and defender.",
-		"video": "https://youtu.be/NSvLkwGfcFc"
+		"video": "NSvLkwGfcFc"
 	},
 	{
 		"id": "coastline",
@@ -37,7 +37,7 @@
 		"location": "Ibiza, Spain",
 		"playlist": ["Ranked", "Quick Match"],
 		"desc": "Team Rainbow has been called to safeguard the seashore of Ibiza, Spain. Stationed on Ibiza’s rocky shore, course through Balearic ruins and navigate booming bars to neutralize the threat. Get ready for a surround flow of combat laced with chaotic rushes as you explore a paradise gone wrong.",
-		"video": "https://youtu.be/0G59efQER9E"
+		"video": "0G59efQER9E"
 	},
 	{
 		"id": "consulate",
@@ -45,7 +45,7 @@
 		"location": "Abidjan, Ivory Coast",
 		"playlist": ["New Comer", "Ranked", "Quick Match"],
 		"desc": "A high-risk, highly secured fortified location, this map depicts an assault on a French consulate in Ivory Coast.",
-		"video": "https://youtu.be/Qw3CPU7Zi-s"
+		"video": "Qw3CPU7Zi-s"
 	},
 	{
 		"id": "favela",

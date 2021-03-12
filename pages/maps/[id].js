@@ -18,24 +18,29 @@ export default function maps(props) {
 			{/* ---- HEADER ---- */}
 			<div
 				style={{ backgroundImage: `url("/images/header/header-${a.id}.jpg")` }}
-				className="header bg-cover p-3 text-white shadow-2xl"
+				className="header bg-cover bg-black p-3 text-white shadow-2xl"
 			>
 				<Link href="/maps">
-					<button className="p-3 border rounded border-black bg-gray-900 bg-opacity-30 hover:bg-opacity-100 hover:border-white">
+					<button className="p-3 border rounded border-black bg-gray-900 bg-opacity-30 hover:bg-yellow-500 hover:border-white">
 						Back
 					</button>
 				</Link>
 				{/* ---- HEADER CONTENT ---- */}
 				<div className="contentContainer flex flex-col py-5 sm:container sm:mx-auto md:flex-row items-center">
-					<div className="video border border-gray-700 text-center">
-						*buraya video gelecek*
-						<img
-							src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/29slajjHhuKyxSabBGGag4/d4bf02709469786297d780fefc78f59a/r6-maps-video-favela_352566.jpg"
-							height={410}
-							width={730}
-						/>
+					<div className="video w-full h-full">
+						<iframe
+							className="w-full h-48 sm:h-96"
+							width="720"
+							height="405"
+							src={`https://www.youtube.com/embed/${a.video}`}
+							srcdoc={`<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/${a.video}?autoplay=1><img src=https://img.youtube.com/vi/${a.video}/maxresdefault.jpg alt='${a.name}'><span>▶</span></a>`}
+							frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+							loading="lazy"
+						></iframe>
 					</div>
-					<div className="content m-3 p-3 rounded bg-black bg-opacity-50">
+					<div className="content mt-3 p-3 rounded bg-black bg-opacity-50 sm:mt-0 sm: ml-3">
 						<div className="title">
 							<h1 className="text-5xl font-black">{a.name}</h1>
 						</div>
@@ -45,6 +50,7 @@ export default function maps(props) {
 					</div>
 				</div>
 			</div>
+			{/* ---- MAP PLANS ---- */}
 		</Layout>
 	);
 }
