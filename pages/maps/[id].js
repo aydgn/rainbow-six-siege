@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import FloorPlanGrid from "../../components/FloorPlanGrid";
 
 export default function maps(props) {
 	const router = useRouter();
@@ -51,6 +52,12 @@ export default function maps(props) {
 				</div>
 			</div>
 			{/* ---- MAP PLANS ---- */}
+			<div className="floorPlansContainer sm:container mx-auto p-3 sm:p-0 sm:py-3">
+				<h2 class="text-3xl font-bold">Map Floor Plans</h2>
+				<div className="PLANS">
+					<FloorPlanGrid url={a.id} />
+				</div>
+			</div>
 		</Layout>
 	);
 }
