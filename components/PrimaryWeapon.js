@@ -1,8 +1,8 @@
 function PrimaryWeapon({ props }) {
 	return (
-		<div className="rounded m-3 shadow hover:shadow-lg hover:border-gray-600">
-			<div className="text-center flex flex-col">
-				<span class="font-bold text-xl">Primary Weapon</span>
+		<div className="m-3 rounded shadow hover:shadow-lg hover:border-gray-600">
+			<div className="flex flex-col text-center">
+				<span className="text-xl font-bold">Primary Weapon</span>
 				<div className="primary1 ">{props.id[`${id}`].primaryweapon1}</div>
 			</div>
 		</div>

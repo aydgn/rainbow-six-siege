@@ -12,6 +12,7 @@ function FloorPlanGrid(props) {
 								src={`/images/maps/${props.url}/${props.url}-1.jpg`}
 								width={1600}
 								height={900}
+								alt="Floor"
 							/>
 						</a>
 					</Link>
@@ -23,6 +24,7 @@ function FloorPlanGrid(props) {
 								src={`/images/maps/${props.url}/${props.url}-2.jpg`}
 								width={1600}
 								height={900}
+								alt="Floor"
 							/>
 						</a>
 					</Link>
@@ -34,6 +36,7 @@ function FloorPlanGrid(props) {
 								src={`/images/maps/${props.url}/${props.url}-3.jpg`}
 								width={1600}
 								height={900}
+								alt="Floor"
 							/>
 						</a>
 					</Link>
@@ -45,6 +48,7 @@ function FloorPlanGrid(props) {
 								src={`/images/maps/${props.url}/${props.url}-4.jpg`}
 								width={1600}
 								height={900}
+								alt="Floor"
 								onError={(e) => (e.target.style.display = "none")}
 							/>
 						</a>
@@ -57,6 +61,7 @@ function FloorPlanGrid(props) {
 								src={`/images/maps/${props.url}/${props.url}-5.jpg`}
 								width={1600}
 								height={900}
+								alt="Floor"
 								onError={(e) => (e.target.style.display = "none")}
 							/>
 						</a>

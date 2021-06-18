@@ -19,41 +19,41 @@ export default function maps(props) {
 			{/* ---- HEADER ---- */}
 			<div
 				style={{ backgroundImage: `url("/images/header/header-${a.id}.jpg")` }}
-				className="header bg-cover bg-black p-3 text-white shadow-2xl"
+				className="p-3 text-white bg-black bg-cover shadow-2xl header"
 			>
 				<Link href="/maps">
-					<button className="p-3 border rounded border-black bg-gray-900 bg-opacity-30 hover:bg-yellow-500 hover:border-white">
+					<button className="p-3 bg-gray-900 border border-black rounded bg-opacity-30 hover:bg-yellow-500 hover:border-white">
 						Back
 					</button>
 				</Link>
 				{/* ---- HEADER CONTENT ---- */}
-				<div className="contentContainer flex flex-col py-5 sm:container sm:mx-auto md:flex-row items-center">
-					<div className="video w-full h-full">
+				<div className="flex flex-col items-center py-5 contentContainer sm:container sm:mx-auto md:flex-row">
+					<div className="w-full h-full video">
 						<iframe
 							className="w-full h-48 sm:h-96"
 							width="720"
 							height="405"
 							src={`https://www.youtube.com/embed/${a.video}`}
-							srcdoc={`<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/${a.video}?autoplay=1><img src=https://img.youtube.com/vi/${a.video}/maxresdefault.jpg alt='${a.name}'><span>▶</span></a>`}
-							frameborder="0"
+							srcDoc={`<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/${a.video}?autoplay=1><img src=https://img.youtube.com/vi/${a.video}/maxresdefault.jpg alt='${a.name}'><span>▶</span></a>`}
+							frameBorder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen
+							allowFullScreen
 							loading="lazy"
 						></iframe>
 					</div>
-					<div className="content mt-3 p-3 rounded bg-black bg-opacity-50 sm:mt-0 sm: ml-3">
+					<div className="p-3 mt-3 ml-3 bg-black bg-opacity-50 rounded content sm:mt-0 sm:">
 						<div className="title">
 							<h1 className="text-5xl font-black">{a.name}</h1>
 						</div>
 						<div className="location">Location: {a.location}</div>
 						<div className="playlist">Playlist: {a.playlist.join(", ")}</div>
-						<p className="desc pt-3">{a.desc}</p>
+						<p className="pt-3 desc">{a.desc}</p>
 					</div>
 				</div>
 			</div>
 			{/* ---- MAP PLANS ---- */}
-			<div className="floorPlansContainer sm:container mx-auto p-3 sm:p-0 sm:py-3">
-				<h2 class="text-3xl font-bold">Map Floor Plans</h2>
+			<div className="p-3 mx-auto floorPlansContainer sm:container sm:p-0 sm:py-3">
+				<h2 className="text-3xl font-bold">Map Floor Plans</h2>
 				<div className="PLANS">
 					<FloorPlanGrid url={a.id} />
 				</div>
