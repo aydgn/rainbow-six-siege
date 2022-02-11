@@ -45,7 +45,7 @@ export default function maps(props) {
 							<h1 className="text-5xl font-black">{a.name}</h1>
 						</div>
 						<div className="location">Location: {a.location}</div>
-						<div className="playlist">Playlist: {a.playlist.filter(Boolean).join(", ")}</div>
+						<div className="playlist">Playlist: {a.playlist.join(", ")}</div>
 						<p className="pt-3 desc">{a.desc}</p>
 					</div>
 				</div>
