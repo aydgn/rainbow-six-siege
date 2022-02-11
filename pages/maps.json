@@ -3,160 +3,180 @@
 		"id": "bank",
 		"name": "Bank",
 		"location": "Los Angeles, California",
-		"playlist": ["New Comer", "Ranked", "Deathmatch"],
+		"playlist": ["New Comer","Ranked","Deathmatch"],
 		"desc": "Team Rainbow has been called to raid a major bank. The focus is on providing a sense of progression for attackers as they make their way through progressively more fortified areas of the building.",
-		"video": "Rn8-ogeD4NY"
+		"video": "Rn8-ogeD4NY",
+		"plan": "1,2,3,4"
 	},
 	{
 		"id": "border",
 		"name": "Border",
 		"location": "Middle East",
-		"playlist": ["Ranked", "Quick Match", ""],
+		"playlist": ["Ranked","Quick Match"],
 		"desc": "Team Rainbow has been called in to assist the local law enforcement and regain control of the border. A mix of old and new buildings with open air pathways make this the most destructible and open planned map to date.",
-		"video": "u5sgw1KLLmY"
+		"video": "u5sgw1KLLmY",
+		"plan": "1,2,3"
 	},
 	{
 		"id": "chalet",
 		"name": "Chalet",
 		"location": "Courchevel, France",
-		"playlist": ["New Comer", "Ranked", "Quick Match"],
+		"playlist": ["New Comer","Ranked","Quick Match"],
 		"desc": "A shootout in an “après-ski” chalet in the French alps. This area contrasts the warm, cozy mood of its interiors with the cold, constrained visibility of its exteriors.",
-		"video": "dUBpOXuPt3o"
+		"video": "dUBpOXuPt3o",
+		"plan": "1,2,3,4"
 	},
 	{
 		"id": "clubhouse",
 		"name": "Clubhouse",
 		"location": "Hanover, Germany",
-		"playlist": ["Ranked", "Quick Match", ""],
+		"playlist": ["Ranked","Quick Match"],
 		"desc": "This map depicts an assault on a biker gang clubhouse. Featuring a full bar, gaming tables and leather furniture, this mixed interior/exterior layout offers a host of interesting tactical possibilities for both attacker and defender.",
-		"video": "NSvLkwGfcFc"
+		"video": "NSvLkwGfcFc",
+		"plan": "1,2,3,4"
 	},
 	{
 		"id": "coastline",
 		"name": "Coastline",
 		"location": "Ibiza, Spain",
-		"playlist": ["Ranked", "Quick Match", ""],
+		"playlist": ["Ranked","Quick Match"],
 		"desc": "Team Rainbow has been called to safeguard the seashore of Ibiza, Spain. Stationed on Ibiza’s rocky shore, course through Balearic ruins and navigate booming bars to neutralize the threat. Get ready for a surround flow of combat laced with chaotic rushes as you explore a paradise gone wrong.",
-		"video": "0G59efQER9E"
+		"video": "0G59efQER9E",
+		"plan": "1,2,3,4"
 	},
 	{
 		"id": "consulate",
 		"name": "Consulate",
 		"location": "Abidjan, Ivory Coast",
-		"playlist": ["New Comer", "Ranked", "Quick Match"],
+		"playlist": ["New Comer","Ranked","Quick Match"],
 		"desc": "A high-risk, highly secured fortified location, this map depicts an assault on a French consulate in Ivory Coast.",
-		"video": "Qw3CPU7Zi-s"
+		"video": "Qw3CPU7Zi-s",
+		"plan": "1,2,3,4"
 	},
 	{
 		"id": "favela",
 		"name": "Favela",
 		"location": "Brazil",
-		"playlist": ["New Comer", "Deathmatch", "Quick Match"],
+		"playlist": ["New Comer","Deathmatch","Quick Match"],
 		"desc": "Team Rainbow has been called to pacify and regain control of the Favela. Mixing colorful and narrow streets with high vantage points, this map supports exterior shell destruction which renders it as the most destructible to date.",
-		"video": "eX3hmlt4qHs"
+		"video": "eX3hmlt4qHs",
+		"plan": "1,2,3,4,5"
 	},
 	{
 		"id": "fortress",
 		"name": "Fortress",
 		"location": "Morocco",
-		"playlist": ["", "", ""],
+		"playlist": "",
 		"desc": "This large daytime map features a mudbrick kasbah and iconic architecture unique to the southern region of Morocco. The imposing main entrance greets all visitors with its two towers and Kasbah Sehkra Mania written above the archway.",
-		"video": "ndh8-JAxg98"
+		"video": "ndh8-JAxg98",
+		"plan": "1,2,3"
 	},
 	{
 		"id": "hereford-base",
 		"name": "Hereford Base",
 		"location": "United Kingdom",
-		"playlist": ["Quick Match", "", ""],
+		"playlist": ["Quick Match"],
 		"desc": "This is where SAS agents learn their craft and as such it a patchwork of plywood targets, sandbags, barbed wire and other obstacles. One of the most archetypal examples of siege gameplay.",
-		"video": "82O8CH8ANhY"
+		"video": "82O8CH8ANhY",
+		"plan": "1,2,3,4,5"
 	},
 	{
 		"id": "house",
 		"name": "House",
 		"location": "Los Angeles, California",
-		"playlist": ["", "", ""],
+		"playlist": "",
 		"desc": "Playing on themes of familiarity and vulnerability, this encounter takes place in a typical suburban home. It’s a prime example of destructive depth and replayability, and is one of the showcases for classic siege gameplay.",
-		"video": "sxa3tX_4j2c"
+		"video": "sxa3tX_4j2c",
+		"plan": "1,2,3,4"
 	},
 	{
 		"id": "kafe-dostoyevsky",
 		"name": "Kafe Dostoyevsky",
 		"location": "Moscow, Russia",
-		"playlist": ["Ranked", "Quick Match", ""],
+		"playlist": ["Ranked","Quick Match"],
 		"desc": "This high-class café in central Moscow is the pinnacle of glitz and glamour, and is a natural intervention ground for Spetsnaz forces. Destruction of the rich, chic, classic decor will be a key element of this map.",
-		"video": "mZcMXVDZDPU"
+		"video": "mZcMXVDZDPU",
+		"plan": "1,2,3,4"
 	},
 	{
 		"id": "kanal",
 		"name": "Kanal",
 		"location": "Hamburg, Germany",
-		"playlist": ["Ranked", "Quick Match", ""],
+		"playlist": ["Ranked","Quick Match"],
 		"desc": "Taking place in the industrial area of Hamburg, Germany, ‘Kanal’ involves multiple buildings with strategic connecting points over canals. It features many interesting strategic possibilities created by the many bridges, buildings and related vantage points of its terrain.",
-		"video": "mxdbyIQays0"
+		"video": "mxdbyIQays0",
+		"plan": "1,2,3,4,5"
 	},
 	{
 		"id": "oregon",
 		"name": "Oregon",
 		"location": "Redmond, Oregon",
-		"playlist": ["Ranked", "Quick Match", ""],
+		"playlist": ["Ranked","Quick Match"],
 		"desc": "Oregon depicts an assault on a fortified survivalist compound. It feels rustic, eclectic and lived-in, and covers a vast, spread out layout requiring adapted tactics to sweep and hold effectively.",
-		"video": "A7g85u34hxE"
+		"video": "A7g85u34hxE",
+		"plan": "1,2,3,4,5"
 	},
 	{
 		"id": "outback",
 		"name": "Outback",
 		"location": "Australia",
-		"playlist": ["Ranked", "Quick Match", ""],
+		"playlist": ["Ranked","Quick Match"],
 		"desc": "Set in Australia’s Red Heart, this map is an homage to all the dusty service stations and motels that populate the forgotten highways of the continent, places filled with hardworking locals and specialty menu items you’ll find nowhere else.",
-		"video": "kwsia2nAtos"
+		"video": "kwsia2nAtos",
+		"plan": "1,2,3,4"
 	},
 	{
 		"id": "presidential-plane",
 		"name": "Presidential Plane",
 		"location": "London, United Kingdom",
-		"playlist": ["", "", ""],
+		"playlist": "",
 		"desc": "This presidential plane offers an exotic and unique siege experience. It is claustrophobic, tense and constrained, involving limited breaching opportunities and sight lines.",
-		"video": "yAPRAHcSpOg"
+		"video": "yAPRAHcSpOg",
+		"plan": "1,2,3,4"
 	},
 	{
 		"id": "skyscraper",
 		"name": "Skyscraper",
 		"location": "Nagoya, Japan",
-		"playlist": ["Quick Match", "Ranked", ""],
+		"playlist": ["Quick Match","Ranked"],
 		"desc": "Team Rainbow has been called to neutralize a Yakuza war brewing high above the streets of Nagoya, Japan. Perched on top of Skyscraper, you will explore refined works of Japanese architecture inside a dangerous mansion. Be prepared for vertiginous rappels in the haze of the morning sun, where modernity and tradition meet.",
-		"video": "ZFo4SxrvEWY"
+		"video": "ZFo4SxrvEWY",
+		"plan": "1,2,3"
 	},
 	{
 		"id": "theme-park",
 		"name": "Theme Park",
 		"location": "Hong Kong",
-		"playlist": ["Quick Match", "Ranked", ""],
+		"playlist": ["Quick Match","Ranked"],
 		"desc": "Team Rainbow has been called to raid an abandoned theme park on the shores of Hong Kong. Lead a lethal raid in this challenging perimeter. Get ready to discover a colorful and eclectic new map filled with dynamic and fast-paced face-offs.",
-		"video": "iiHN6iQykB8"
+		"video": "iiHN6iQykB8",
+		"plan": "1,2,3"
 	},
 	{
 		"id": "tower",
 		"name": "Tower",
 		"location": "Seoul, South Korea",
-		"playlist": ["", "", ""],
+		"playlist": "",
 		"desc": "Scale the snow-capped Mok Myeok Tower to lead a rescue mission in Seoul, South Korea. The modern communications and observation tower offers fresh vertical vantage points overlooking the entire cityscape, and sets the stage for diverse multilevel tactics.",
-		"video": "VFeWz-RyCXc"
+		"video": "VFeWz-RyCXc",
+		"plan": "1,2,3,4"
 	},
 	{
 		"id": "villa",
 		"name": "Villa",
 		"location": "Tuscany, Italy",
-		"playlist": ["Quick Match", "Ranked", ""],
+		"playlist": ["Quick Match","Ranked"],
 		"desc": "The land belongs to the Vinciguerra, a dangerous crime family known for their smuggling activities. Now we catch the villa in a snapshot of time: Vinciguerras are burning documents and transporting their holdings before the big raid. But they’ve got wind of Operation Para Bellum and fled, leaving everything in disarray with vital information ready for the taking.",
-		"video": "sAMvSddrwGk"
+		"video": "sAMvSddrwGk",
+		"plan": "1,2,3,4,5"
 	},
 	{
 		"id": "yacht",
 		"name": "Yacht",
 		"location": "Baffin Bay",
-		"playlist": ["Quick Match", "", ""],
+		"playlist": ["Quick Match"],
 		"desc": "In the Baffin Bay, a luxury yacht has crashed into an iceberg breaching the hull. Rainbow has been sent to secure the stranded vessel as an unidentified submarine has docked near the vessel.",
-		"video": "iFFVlVuvB4Q"
+		"video": "iFFVlVuvB4Q",
+		"plan": "1,2,3,4,5"
 	}
-]
+ ]
