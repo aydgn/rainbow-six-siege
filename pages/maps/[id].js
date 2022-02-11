@@ -2,6 +2,7 @@ import Layout from "../../components/Layout";
 import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Image from "next/image";
 import FloorPlanGrid from "../../components/FloorPlanGrid";
 
 export default function maps(props) {
@@ -21,9 +22,9 @@ export default function maps(props) {
 				className="p-3 text-white bg-black bg-cover shadow-2xl header"
 			>
 				<Link href="/maps">
-					<a className="p-3 bg-gray-900 border border-black rounded bg-opacity-30 hover:bg-yellow-500 hover:border-white">
+					<button className="p-3 bg-gray-900 border border-black rounded bg-opacity-30 hover:bg-yellow-500 hover:border-white">
 						Back
-					</a>
+					</button>
 				</Link>
 				{/* ---- HEADER CONTENT ---- */}
 				<div className="flex flex-col items-center py-5 contentContainer sm:container sm:mx-auto md:flex-row">
