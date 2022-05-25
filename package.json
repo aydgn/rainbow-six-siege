@@ -8,15 +8,15 @@
 		"start": "next start"
 	},
 	"dependencies": {
-		"next": "12",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2"
+		"next": "^12.1.6",
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0"
 	},
 	"devDependencies": {
-		"autoprefixer": "^10.2.5",
-		"eslint": "^7.29.0",
-		"eslint-config-next": "^11.0.0",
-		"postcss": "^8.2.10",
-		"tailwindcss": "^2.0.3"
+		"autoprefixer": "^10.4.7",
+		"eslint": "^8.16.0",
+		"eslint-config-next": "^12.1.6",
+		"postcss": "^8.4.14",
+		"tailwindcss": "^3.0.24"
 	}
 }
