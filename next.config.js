@@ -1,5 +1,5 @@
 module.exports = {
-	devIndicators: {
-		autoPrerender: true,
-	},
-};
+  devIndicators: {
+    buildActivityPosition: 'bottom-right',
+  },
+}
