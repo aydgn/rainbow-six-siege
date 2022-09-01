@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Map(props) {
 	return (
 		<section className="border rounded-lg hover:shadow-lg hover:bg-gray-100 transition-all duration-500">
-			<Link href={`/maps/${props.url}`}>
+			<Link href={`/maps/${props.url}`} prefetch={false}>
 				<a>
 					<span className="block text-center text-xl font-semibold">
 						{props.mapname}
